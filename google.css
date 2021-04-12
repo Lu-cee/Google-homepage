@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+body {
+    font-family:'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    padding: 6px;
+    display: grid;
+    grid-template-columns: 74vw 22vw;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #5a5d5a;
+    transition: all 300ms ease-in-out;
+}
+
+#signin {
+    color: white;
+    padding: 9px 23px;
+    background: #63a0ef;
+    border-radius: 5px;
+}
+
+.navbar a:not(:last-child):hover {
+    text-decoration: underline;
+}
+
+.navbar a:nth-child(3):hover {
+    padding: 4px 4px 0px 4px;
+    background: #cfcfcf81;
+    border-radius: 25px;
+}
+.body {
+    margin-top: 148px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    font-weight: 700;
+}
+.blues {
+    color: #4285f4;
+    margin-right: 3px;
+}
+
+.reds {
+    color: #ea4335;
+    margin-right: 3px;
+}
+.yellows {
+    color: #fbbc05;
+    margin-right: 3px;
+}
+.greens {
+    color: #34a853;
+    margin-right: 3px;
+}
+
+form {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #0000003d;
+    padding: 5px 8px 5px 14px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+input {
+    width: 30vw;
+    margin: 0px 25px;
+    border: 0px;
+    outline: none;
+}
+
+form:hover {
+    box-shadow: 1px 1px 6px #0000003d;
+}
+.searchlinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchlinks a {
+    color: black;
+    background: #f8f9fa;
+    text-decoration: none;
+    padding: 7px 16px;
+    margin: 11px 4px;
+    border-radius: 5px;
+}
+.searchlinks a:hover {
+    box-shadow: 1px 1px 6px #0000003d;
+}
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links a {
+    text-decoration: none;
+    margin-left: 16px;
+    color: #5c71c1;
+}
+.links a:hover {
+    text-decoration: underline;
+}
+.footer {
+    background: rgb(242 242 242);
+    position:absolute;
+    width: 100vw;
+    bottom: 0;
+}
+
+.nigeria {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 15px 30px;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
+.bottom a{
+    color: rgba(0,0,0,.54);
+    text-decoration: none;
+}
+.bottom a:hover {
+    text-decoration: underline;
+}
